@@ -1,0 +1,14 @@
+export const products = [
+  { id: 1, name: "iPhone 15 Pro", category: "elektronika", price: 12999000, rating: 4.8, image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400", description: "Apple iPhone 15 Pro 256GB, Titanium dizayn, A17 Pro chip, 48MP kamera." },
+  { id: 2, name: "Samsung Galaxy S24", category: "elektronika", price: 9999000, rating: 4.6, image: "https://images.unsplash.com/photo-1706439015956-2de88b5e3253?w=400", description: "Samsung Galaxy S24 Ultra, 200MP kamera, Snapdragon 8 Gen 3." },
+  { id: 3, name: "Nike Air Max 270", category: "sport", price: 1299000, rating: 4.5, image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400", description: "Nike Air Max 270, yengil va qulay, har xil o'lchamlarda mavjud." },
+  { id: 4, name: "Adidas Ultraboost", category: "sport", price: 1499000, rating: 4.7, image: "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=400", description: "Adidas Ultraboost 23, Boost texnologiyasi, yugurishga ideal." },
+  { id: 5, name: "Erkaklar ko'ylagi", category: "kiyim", price: 299000, rating: 4.3, image: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400", description: "100% paxta, klassik dizayn, S/M/L/XL o'lchamlarda." },
+  { id: 6, name: "Ayollar ko'ylagi", category: "kiyim", price: 349000, rating: 4.4, image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400", description: "Zamonaviy dizayn, yumshoq mato, rang-barang variantlar." },
+  { id: 7, name: "MacBook Air M3", category: "elektronika", price: 18999000, rating: 4.9, image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400", description: "Apple MacBook Air M3, 16GB RAM, 512GB SSD, 18 soat batareya." },
+  { id: 8, name: "Organik asal", category: "oziq-ovqat", price: 89000, rating: 4.6, image: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=400", description: "Tog' asali, 1kg, tabiiy va organik, hech qanday qo'shimchasiz." },
+  { id: 9, name: "Zeytun moyi", category: "oziq-ovqat", price: 129000, rating: 4.5, image: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=400", description: "Extra virgin zeytun moyi, 1L, Italiyadan import qilingan." },
+  { id: 10, name: "Sony WH-1000XM5", category: "elektronika", price: 3999000, rating: 4.8, image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=400", description: "Sony WH-1000XM5, shovqin bekor qiluvchi quloqchin, 30 soat batareya." },
+  { id: 11, name: "Yoga matsi", category: "sport", price: 199000, rating: 4.4, image: "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400", description: "6mm qalinlik, yopishqoq sirt, barcha yoga turlari uchun." },
+  { id: 12, name: "Jeans shimlar", category: "kiyim", price: 459000, rating: 4.2, image: "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400", description: "Slim fit jeans, stretch mato, 28-36 o'lchamlarda." },
+];
