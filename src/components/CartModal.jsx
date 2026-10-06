@@ -7,7 +7,7 @@ export default function CartModal({ open, onClose }) {
   const formatPrice = (p) => p.toLocaleString("uz-UZ") + " so'm";
 
   return (
-    <div className="fixed inset-0 z-50  flex items-center justify-center p-4 bg-black/50" onClick={onClose}>
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50" onClick={onClose}>
       <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md flex flex-col max-h-[85vh]" onClick={(e) => e.stopPropagation()}>
         <div className="flex items-center justify-between p-5 border-b">
           <h2 className="text-lg font-bold text-gray-800">🛒 Savat ({cart.length})</h2>
